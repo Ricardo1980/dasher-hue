@@ -1,0 +1,22 @@
+{
+  "philips_hue": {
+    "ipaddress": "192.168.0.10",
+    "username": "your-philips-hue-username-key"
+  },
+  "buttons":[
+  {
+    "name": "Amazon Dash Fiesta Living Room",
+    "address": "50:50:50:50:50:51",
+    "group": "1"
+  },
+  {
+    "name": "Amazon Dash Rodial Bedroom",
+    "address": "50:50:50:50:50:52",
+    "group": "2"
+  },
+  {
+    "name": "Amazon Dash ON Corridor",
+    "address": "50:50:50:50:50:53",
+    "light": "6"
+  }
+]}

@@ -1,0 +1,23 @@
+{
+  "name": "dasher-hue",
+  "version": "1.0.0",
+  "description": "A way to bridge your Amazon Dash buttons with Philips Hue.",
+  "main": "app.js",
+  "scripts": {
+    "start": "sudo node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ricardo1980/dasher-hue"
+  },
+  "author": "Ricardo Ruiz Lopez <ricardo_ruiz_lopez@yahoo.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ricardo1980/dasher-hue/issues"
+  },
+  "dependencies": {
+    "async": "*",
+    "node-dash-button": "^0.6.1",
+    "node-hue-api": "^2.4.1"
+  }
+}
