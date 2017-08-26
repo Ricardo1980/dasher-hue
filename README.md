@@ -6,6 +6,8 @@ This small project is just a combination of two existing projects:
 [node-hue-api](https://github.com/peter-murray/node-hue-api)
 [dasher](https://github.com/maddox/dasher)
 
+See it in action [in this video](https://vimeo.com/231230932)
+
 
 ## How it works
 
