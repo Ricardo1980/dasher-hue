@@ -89,6 +89,29 @@ Listening for Amazon Dash Buttons requires root. So you need to start dasher-hue
 
 For creating and setting up a service, check [this](https://www.axllent.org/docs/view/nodejs-service-with-systemd).
 
+An example could be:
+```json
+[Unit]
+Description=dasher-hue
+
+[Service]
+ExecStart=/usr/local/bin/node /home/pi/dasher-hue/app.js
+Restart=always
+ # Restart service after 10 seconds if node service crashes
+ RestartSec=10
+ # Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=dasher-hue
+Environment=NODE_ENV=production PORT=1337
+
+[Install]
+WantedBy=multi-user.target
+```
+In /etc/systemd/system/dasher-hue.service 
+And then use 
+sudo systemctl enable dasher-hue.service
+sudo systemctl start dasher-hue.service
 
 ### Improvements
 
