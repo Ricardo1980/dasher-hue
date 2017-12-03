@@ -110,8 +110,10 @@ WantedBy=multi-user.target
 ```
 In /etc/systemd/system/dasher-hue.service 
 And then use 
+```
 sudo systemctl enable dasher-hue.service
 sudo systemctl start dasher-hue.service
+```
 
 ### Improvements
 
