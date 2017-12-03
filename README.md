@@ -90,7 +90,7 @@ Listening for Amazon Dash Buttons requires root. So you need to start dasher-hue
 For creating and setting up a service, check [this](https://www.axllent.org/docs/view/nodejs-service-with-systemd).
 
 An example could be:
-```json
+```
 [Unit]
 Description=dasher-hue
 
